@@ -1,0 +1,10 @@
+.container,
+.liContainer {
+  display: flex;
+  justify-content: space-between;
+  flex: 60%;
+}
+
+li {
+  margin: 0 30px 0 30px;
+}
