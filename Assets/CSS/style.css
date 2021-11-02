@@ -1,4 +1,113 @@
-.container,
+* {
+  background-color: rgb(122, 216, 245);
+  box-sizing: content-box;
+  padding: 10px;
+  margin: 5px;
+  border: 2px;
+  color: black;
+}
+
+.header {
+  background-image: url("/Assets/Images/Railroad.jpg");
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 5px;
+  display: flex-start;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a6072;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+.header ul {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: bolder;
+  display: flex-end;
+  padding: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a6072;
+  color: #fff;
+}
+
+.main {
+  display: flex-start;
+  font-weight: bolder;
+  font-size: 32px;
+  padding: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 10px;
+}
+
+.main ul {
+  font-weight: normal;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.main li {
+  background-image: ;
+  /* border: 10px;
+  padding: 10px; */
+  display: flex;
+  /* justify-content: flex-end;
+  border: 5px;
+  flex-wrap: wrap; */
+}
+
+#subtitle {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer {
+  font-size: 14px;
+  padding: 5px;
+  display: flex-start;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a6072;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.footer h2 {
+  background-color: #2a6072;
+  color: #fff;
+}
+
+.footer ul {
+  display: flex;
+  font-weight: 700;
+  font-size: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* .container,
 .liContainer {
   display: flex;
   justify-content: space-between;
@@ -7,4 +116,4 @@
 
 li {
   margin: 0 30px 0 30px;
-}
+} */
