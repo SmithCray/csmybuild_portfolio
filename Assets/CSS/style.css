@@ -1,14 +1,16 @@
 * {
-  background-color: rgb(122, 216, 245);
-  box-sizing: content-box;
-  padding: 10px;
-  margin: 5px;
+  padding: 5px;
   border: 2px;
-  color: black;
+  color: azure;
 }
 
 .header {
+  position: relative;
+  background-image: url("../Images/Railroad.jpg");
   font-weight: bolder;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   font-size: 50px;
   padding: 5px;
   display: flex-start;
@@ -16,7 +18,9 @@
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a6072;
   color: #fff;
-  background: rgb(2, 0, 36);
+}
+
+body {
   background: linear-gradient(
     90deg,
     rgba(0, 212, 255, 1) 0%,
@@ -33,14 +37,26 @@
 }
 
 .header h1 {
-  font-size: 32px;
+  /* background-color: rgb(2, 0, 36, 1); */
+  font-size: 42px;
   font-weight: bolder;
   display: flex-end;
   padding: 2px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #2a6072;
   color: #fff;
+}
+
+#Aboutme {
+  font-size: 28px;
+}
+
+#Contact {
+  font-size: 22px;
+}
+
+#Work {
+  font-size: 28px;
 }
 
 .main {
@@ -58,29 +74,78 @@
   font-weight: normal;
   display: flex;
   justify-content: space-evenly;
+  text-align: end;
   flex-wrap: wrap;
 }
 .main ul li {
-  border: 1px dotted #fff;
+  border: 1px solid #fff;
 }
 
-/* #pic {
-  display: flex;
-  outline: 2px solid black;
-  padding: 20em;
+.Horiseonli {
+  color: #fff;
   background-image: url("../Images/Horiseon.PNG");
-} */
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
 
-/* .main li {
-  border: 10px;
-  padding: 10px; */
-/* display: flex; */
-/* justify-content: flex-end;
-  border: 5px;
-  flex-wrap: wrap;
-} */
+.Tektonicli {
+  color: #fff;
+  background-image: url("../Images/Tectonic.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 18vh;
+  width: 50%;
+}
+
+.calculator {
+  color: #fff;
+  /* background-image: url("../Images/Calculator0e74d3c715ea.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;*/
+  height: 18vh;
+  width: 50%;
+  position: relative;
+}
+
+.cal {
+  width: 200px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.pCalculator {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+}
+
+.Puzzled {
+  color: #fff;
+  background-image: url("../Images/Puzzled0ad8fbafe058.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 18vh;
+  width: 50%;
+}
+
+.Resume {
+  color: #fff;
+  background-image: url("../Images/resume.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 18vh;
+  width: 50%;
+}
 
 #subtitle {
+  margin: 42px;
+  padding: 6px;
+  padding-left: 15px;
+  padding-bottom: 20px;
   display: flex;
   font-family: "Times New Roman", Times, serif;
   font-size: 24px;
@@ -89,8 +154,8 @@
 
 .footer {
   font-size: 14px;
-  padding: 5px;
-  display: flex-start;
+  /* padding: 5px; */
+  /* flex-shrink: 0; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a6072;
@@ -99,33 +164,46 @@
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
+    rgb(9, 9, 121) 35%,
     rgba(0, 212, 255, 1) 100%
   );
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer h2 {
-  background-color: #2a6072;
+  flex: 0;
+  font-size: 16px;
+  background-color: rgb(2, 0, 36, 1);
   color: #fff;
 }
 
 .footer ul {
+  /* padding-right: 52px; */
   display: flex;
   font-weight: 700;
-  font-size: 12px;
-  align-items: center;
+  font-size: 16px;
   justify-content: flex-end;
 }
-/* .container,
-.liContainer {
-  display: flex;
-  justify-content: space-between;
-  flex: 60%;
+
+.footer li {
+  padding-right: 20px;
 }
 
-/* tips- flex grow, shrink, basis.
- */
-/* 
-li {
-  margin: 0 30px 0 30px;
-} */ */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section h2 {
+  flex: 0 0 25%;
+}
+
+.section ul {
+  flex: 0 0 65%;
+}
+
+.section p {
+  flex: 0 0 65%;
+}
