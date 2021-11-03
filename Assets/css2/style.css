@@ -6,7 +6,7 @@
 
 .header {
   position: relative;
-  background-image: url("../images/Railroad.jpg");
+  background-image: url("../Images/Railroad.jpg");
   font-weight: bolder;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ body {
 
 .Horiseonli {
   color: #fff;
-  background-image: url("../images/Horiseon.PNG");
+  background-image: url("../Images/Horiseon.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
@@ -93,7 +93,7 @@ body {
 
 .Tektonicli {
   color: #fff;
-  background-image: url("../images/Tectonic.jpg");
+  background-image: url("../Images/Tectonic.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -104,7 +104,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   color: #fff;
-  background-image: url("../images/Calculator0e74d3c715ea.jpg");
+  background-image: url("../Images/Calculator0e74d3c715ea.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -113,7 +113,7 @@ body {
 
 .Puzzled {
   color: #fff;
-  background-image: url("../images/Puzzled0ad8fbafe058.jpg");
+  background-image: url("../Images/Puzzled0ad8fbafe058.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -122,7 +122,7 @@ body {
 
 .Resume {
   color: #fff;
-  background-image: url("../images/resume.jpg");
+  background-image: url("../Images/resume.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
