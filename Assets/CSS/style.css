@@ -6,14 +6,14 @@
 
 .header {
   position: relative;
-  background-image: url("../Images/Railroad.jpg");
+  background-image: url("../images/Railroad.jpg");
   font-weight: bolder;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   font-size: 50px;
   padding: 5px;
-  display: flex-start;
+  flex-wrap: wrap;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a6072;
@@ -30,6 +30,7 @@ body {
 }
 
 .header ul {
+  flex-wrap: wrap;
   display: flex;
   font-size: 18px;
   align-items: center;
@@ -83,7 +84,7 @@ body {
 
 .Horiseonli {
   color: #fff;
-  background-image: url("../Images/Horiseon.PNG");
+  background-image: url("../images/Horiseon.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
@@ -92,7 +93,7 @@ body {
 
 .Tektonicli {
   color: #fff;
-  background-image: url("../Images/Tectonic.jpg");
+  background-image: url("../images/Tectonic.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -100,32 +101,19 @@ body {
 }
 
 .calculator {
+  display: flex;
+  flex-wrap: wrap;
   color: #fff;
-  /* background-image: url("../Images/Calculator0e74d3c715ea.jpg");
+  background-image: url("../images/Calculator0e74d3c715ea.jpg");
   background-size: contain;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   height: 18vh;
   width: 50%;
-  position: relative;
-}
-
-.cal {
-  width: 200px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.pCalculator {
-  position: absolute;
-  left: 0;
-  bottom: 20%;
 }
 
 .Puzzled {
   color: #fff;
-  background-image: url("../Images/Puzzled0ad8fbafe058.jpg");
+  background-image: url("../images/Puzzled0ad8fbafe058.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -134,7 +122,7 @@ body {
 
 .Resume {
   color: #fff;
-  background-image: url("../Images/resume.jpg");
+  background-image: url("../images/resume.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -172,15 +160,14 @@ body {
   width: 100%;
 }
 
-.footer h2 {
+.footer h3 {
   flex: 0;
   font-size: 16px;
-  background-color: rgb(2, 0, 36, 1);
   color: #fff;
 }
 
 .footer ul {
-  /* padding-right: 52px; */
+  flex-wrap: wrap;
   display: flex;
   font-weight: 700;
   font-size: 16px;
