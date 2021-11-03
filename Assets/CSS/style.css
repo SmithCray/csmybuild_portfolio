@@ -1,0 +1,196 @@
+* {
+  padding: 5px;
+  border: 2px;
+  color: azure;
+}
+
+.header {
+  position: relative;
+  background-image: url("../images/Railroad.jpg");
+  font-weight: bolder;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 50px;
+  padding: 5px;
+  flex-wrap: wrap;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a6072;
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+.header ul {
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header h1 {
+  /* background-color: rgb(2, 0, 36, 1); */
+  font-size: 42px;
+  font-weight: bolder;
+  display: flex-end;
+  padding: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+}
+
+#Aboutme {
+  font-size: 28px;
+}
+
+#Contact {
+  font-size: 22px;
+}
+
+#Work {
+  font-size: 28px;
+}
+
+.main {
+  display: flex-start;
+  font-weight: bolder;
+  font-size: 32px;
+  padding: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 10px;
+}
+
+.main ul {
+  list-style-type: none;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: end;
+  flex-wrap: wrap;
+}
+.main ul li {
+  border: 1px solid #fff;
+}
+
+.Horiseonli {
+  color: #fff;
+  background-image: url("../images/Horiseon.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.Tektonicli {
+  color: #fff;
+  background-image: url("../images/Tectonic.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 18vh;
+  width: 50%;
+}
+
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  background-image: url("../images/Calculator0e74d3c715ea.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 18vh;
+  width: 50%;
+}
+
+.Puzzled {
+  color: #fff;
+  background-image: url("../images/Puzzled0ad8fbafe058.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 18vh;
+  width: 50%;
+}
+
+.Resume {
+  color: #fff;
+  background-image: url("../images/resume.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 18vh;
+  width: 50%;
+}
+
+#subtitle {
+  margin: 42px;
+  padding: 6px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer {
+  font-size: 14px;
+  /* padding: 5px; */
+  /* flex-shrink: 0; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a6072;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(9, 9, 121) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer h3 {
+  flex: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer ul {
+  flex-wrap: wrap;
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+  justify-content: flex-end;
+}
+
+.footer li {
+  padding-right: 20px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section h2 {
+  flex: 0 0 25%;
+}
+
+.section ul {
+  flex: 0 0 65%;
+}
+
+.section p {
+  flex: 0 0 65%;
+}
