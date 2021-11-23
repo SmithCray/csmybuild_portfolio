@@ -1,6 +1,6 @@
 * {
-  padding: 5px;
-  border: 2px;
+  /* padding: 5px;
+  border: 2px; */
   color: azure;
 }
 
@@ -21,6 +21,7 @@
 }
 
 body {
+  min-height: 100%;
   background: linear-gradient(
     90deg,
     rgba(0, 212, 255, 1) 0%,
@@ -47,8 +48,13 @@ body {
     "Lucida Sans", Arial, sans-serif;
   color: #fff;
 }
+.header li {
+  padding: 10px;
+}
 
 #Aboutme {
+  padding: 5px;
+  border: 2px;
   font-size: 28px;
 }
 
@@ -57,11 +63,14 @@ body {
 }
 
 #Work {
+  padding: 5px;
+  border: 2px;
   font-size: 28px;
 }
 
 .main {
-  display: flex-start;
+  height: fit-content;
+  position: relative;
   font-weight: bolder;
   font-size: 32px;
   padding: 5px;
@@ -79,7 +88,8 @@ body {
   flex-wrap: wrap;
 }
 .main ul li {
-  border: 1px solid #fff;
+  padding: 10px;
+  border: 5px solid white;
 }
 
 .Horiseonli {
@@ -87,7 +97,7 @@ body {
   background-image: url("../Images/Horiseon.PNG");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 14em;
   width: 100%;
 }
 
@@ -101,8 +111,6 @@ body {
 }
 
 .calculator {
-  display: flex;
-  flex-wrap: wrap;
   color: #fff;
   background-image: url("../Images/Calculator0e74d3c715ea.jpg");
   background-size: contain;
@@ -142,8 +150,6 @@ body {
 
 .footer {
   font-size: 14px;
-  /* padding: 5px; */
-  /* flex-shrink: 0; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a6072;
@@ -155,8 +161,7 @@ body {
     rgb(9, 9, 121) 35%,
     rgba(0, 212, 255, 1) 100%
   );
-  position: fixed;
-  bottom: 0;
+  position: relative;
   width: 100%;
 }
 
@@ -192,5 +197,9 @@ body {
 }
 
 .section p {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   flex: 0 0 65%;
 }
