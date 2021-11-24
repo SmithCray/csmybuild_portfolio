@@ -96,7 +96,7 @@ body {
 
 .venueFinder {
   color: #fff;
-  background-image: url("../images/Venuefinder.PNG");
+  background-image: url("../Images/Venuefinder.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 14em;
@@ -105,7 +105,7 @@ body {
 
 .mygithub {
   color: #fff;
-  background-image: url("../images/github.PNG");
+  background-image: url("../Images/github.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -114,7 +114,7 @@ body {
 
 .passwordG {
   color: #fff;
-  background-image: url("../images/passwordGenerator.PNG");
+  background-image: url("../Images/passwordGenerator.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -123,7 +123,7 @@ body {
 
 .linkedin {
   color: #fff;
-  background-image: url("../images/Linkedin.PNG");
+  background-image: url("../Images/Linkedin.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -132,7 +132,7 @@ body {
 
 .Resume {
   color: #fff;
-  background-image: url("../images/resume.jpg");
+  background-image: url("../Images/resume.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
