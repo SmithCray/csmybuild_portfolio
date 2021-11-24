@@ -53,6 +53,7 @@ body {
 }
 
 #Aboutme {
+  color: black;
   padding: 5px;
   border: 2px;
   font-size: 28px;
@@ -63,6 +64,7 @@ body {
 }
 
 #Work {
+  color: black;
   padding: 5px;
   border: 2px;
   font-size: 28px;
@@ -89,39 +91,39 @@ body {
 }
 .main ul li {
   padding: 10px;
-  border: 5px solid white;
+  border: 5px double black;
 }
 
-.Horiseonli {
+.venueFinder {
   color: #fff;
-  background-image: url("../Images/Horiseon.PNG");
+  background-image: url("../Images/Venuefinder.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 14em;
   width: 100%;
 }
 
-.Tektonicli {
+.mygithub {
   color: #fff;
-  background-image: url("../Images/Tectonic.jpg");
+  background-image: url("../Images/github.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
   width: 50%;
 }
 
-.calculator {
+.passwordG {
   color: #fff;
-  background-image: url("../Images/Calculator0e74d3c715ea.jpg");
+  background-image: url("../Images/passwordGenerator.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
   width: 50%;
 }
 
-.Puzzled {
+.linkedin {
   color: #fff;
-  background-image: url("../Images/Puzzled0ad8fbafe058.jpg");
+  background-image: url("../Images/Linkedin.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;

@@ -2,13 +2,13 @@
 
 #
 
-## Portfolio webpage "Cray Smith WorX".
+# Portfolio webpage "Cray Smith WorX".
 
 ## Description:
 
 #
 
-_Cray Smith WorX_ Is the beginning of my Professional appearance and a collection of my work so far. My goals are to present an experience that is clean, easy to read and understand, appealing to the eye, as well as functional, helpful and informative. In addition, I want a product that I can build upon in the future implementing "_Better Code_", more resources, efficiency, and user function.
+[_Cray Smith WorX_](https://smithcray.github.io/csmybuild_portfolio/) Is the beginning of my Professional appearance and a collection of my work so far. My goals are to present an experience that is clean, easy to read and understand, appealing to the eye, as well as functional, helpful and informative. In addition, I want a product that I can build upon in the future implementing "_Better Code_", more resources, efficiency, and user function.
 
 ## The future:
 
@@ -25,6 +25,13 @@ _Cray Smith WorX_ Is the beginning of my Professional appearance and a collectio
 
 Early style.css code used to achieve certain visual elements created issues later in the code with sections such as the footer. During troubleshooting we struggled with early code cause instances of future code failing. We attempted to fix issues as they arise but code will need further editing in the future.
 
+# Version Update 2.0
+
+- Better footer fixed
+- Flex-Box updated design
+- Added Projects to content with links
+- Added too about me section in progress
+
 #
 
 ## GitHub and url links:
@@ -32,9 +39,9 @@ Early style.css code used to achieve certain visual elements created issues late
 - Github: (https://github.com/SmithCray/csmybuild_portfolio)
 - Deployed: (https://smithcray.github.io/csmybuild_portfolio/)
 
-## Preview:
+# Preview:
 
-![Cray Smith WorX](assets\images\portfoliosnippet.PNG)
+![Cray Smith WorX](Assets\Images\updatedport.PNG)
 
 Copyright (c) [2021] [Cray Smith]
 
