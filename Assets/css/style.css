@@ -1,7 +1,20 @@
 * {
-  /* padding: 5px;
-  border: 2px; */
   color: azure;
+}
+
+.body {
+  min-height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+.card {
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .header {
@@ -20,14 +33,12 @@
   color: #fff;
 }
 
-body {
-  min-height: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 212, 255, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(2, 0, 36, 1) 100%
-  );
+.header a {
+  color: yellow;
+  margin-right: 115px;
+  margin-top: 32px;
+  font-size: 20px;
+  margin-bottom: 45px;
 }
 
 .header ul {
@@ -39,7 +50,7 @@ body {
 }
 
 .header h1 {
-  /* background-color: rgb(2, 0, 36, 1); */
+  margin-top: 15px;
   font-size: 42px;
   font-weight: bolder;
   display: flex-end;
@@ -48,13 +59,16 @@ body {
     "Lucida Sans", Arial, sans-serif;
   color: #fff;
 }
+
 .header li {
   padding: 10px;
+  padding-left: 25px;
 }
 
 #Aboutme {
   color: black;
   padding: 5px;
+  padding-top: 55px;
   border: 2px;
   font-size: 28px;
 }
@@ -103,9 +117,9 @@ body {
   width: 100%;
 }
 
-.mygithub {
+.mileHi {
   color: #fff;
-  background-image: url("../Images/github.PNG");
+  background-image: url("../Images/milehiPreview.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -121,9 +135,9 @@ body {
   width: 50%;
 }
 
-.linkedin {
+.eShopper {
   color: #fff;
-  background-image: url("../Images/Linkedin.PNG");
+  background-image: url("../Images/eShopperInsomnia.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -140,18 +154,19 @@ body {
 }
 
 #subtitle {
-  margin: 42px;
-  padding: 6px;
-  padding-left: 15px;
-  padding-bottom: 20px;
+  padding-left: 25px;
+  margin-right: 6px;
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-bottom: 85px;
   display: flex;
   font-family: "Times New Roman", Times, serif;
   font-size: 24px;
-  color: #fff;
+  color: yellow;
 }
 
 .footer {
-  font-size: 14px;
+  font-size: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a6072;
@@ -177,12 +192,17 @@ body {
   flex-wrap: wrap;
   display: flex;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   justify-content: flex-end;
 }
 
 .footer li {
-  padding-right: 20px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  color: yellow;
 }
 
 .section {
@@ -201,7 +221,10 @@ body {
 .section p {
   padding-top: 50px;
   padding-bottom: 100px;
-  padding-left: 100px;
+  padding-left: 25px;
   padding-right: 100px;
   flex: 0 0 65%;
+  font-size: 20px;
+  line-height: 2em;
+  text-indent: 5%;
 }

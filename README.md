@@ -43,7 +43,31 @@ Early style.css code used to achieve certain visual elements created issues late
 
 ![Cray Smith WorX](Assets\Images\updatedport.PNG)
 
-Copyright (c) [2021] [Cray Smith]
+<br>
+
+## Author:
+
+#
+
+<br>
+ 
+### <span style="color:orange">**Cray Smith**</span>
+
+<img src="Assets\Images\p2cray.PNG" alt="Cray Smith GitHub" width="150px">
+
+GitHub Link:
+<br>
+https://github.com/SmithCray
+
+Email:
+<br>
+cmsmith004@gmail.com
+
+<br>
+
+### Copyright (c) [2021] [Cray Smith]
+
+#
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
